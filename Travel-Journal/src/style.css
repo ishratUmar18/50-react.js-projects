@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  color: #2b283a;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #e5e5e5;
+}
+nav {
+  height: 70px;
+  display: flex;
+  color: #FFFFFF;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 7px;
+  background-color: #F55A5A;
+}
+.gray {
+  color: #918E9B;
+}
+.nav--logo {
+height: 24px;
+}
+.nav--text{
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.075em;
+}
+
+.cards-list{
+  background-color: #fff;
+}
+.card-section {
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-block: 18px;
+  display: flex;
+  gap: 19px;
+  align-items: center;
+}
+.cards:first-child {
+  padding-top: 60px;
+}
+.card--image{
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+.card--location{
+  display: flex;
+  align-items: center;
+}
+.marker--icon{
+  height: 11px;
+  color: #f55a5a;
+}
+.location--text{
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 0.17em;
+  margin-left: 4px;
+}
+.google-maps-link{
+  color: #918e9b;
+  font-size: 11px;
+  text-decoration: underline;
+  margin-left: 12px;
+}
+.card--title{
+  margin-top: 7px;
+  font-weight: 700;
+  font-size: 25px;
+}
+.date--text{
+  font-weight: 700;
+  font-size: 11px;
+  margin-top: 7px;
+}
+.description--text{
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 150%;
+  width: 326px;
+  margin-top: 10px;
+  padding-right: 25px;
+}
+
+.horizontal--line{
+  background: #f5f5f5;
+  border: 0px solid #f5f5f5;
+  margin: auto;
+  height: 1px;
+  width: 450px;
+}
