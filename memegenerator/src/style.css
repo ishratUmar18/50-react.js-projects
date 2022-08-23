@@ -50,3 +50,6 @@ margin-right: auto;
   border: none;
   cursor: pointer;
 }
+.meme--image{
+  width: 100%;
+}
