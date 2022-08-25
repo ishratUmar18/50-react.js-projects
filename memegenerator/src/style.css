@@ -18,7 +18,7 @@ main{
   color: white;
   padding: 20px;
 }
-.header-image{
+.header--image{
   height: 100%;
   margin-right: 6px;
 }
@@ -52,4 +52,6 @@ margin-right: auto;
 }
 .meme--image{
   width: 100%;
+  border-radius: 3px;
+  margin-top: 16px;
 }
