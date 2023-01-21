@@ -1,5 +1,5 @@
 import styles from "./style";
-import { Navbar }  from "./components";
+import { Navbar, Hero }  from "./components";
 
 
 const App = () => (
@@ -9,7 +9,13 @@ const App = () => (
           <Navbar />
         </div>
       </div>
+      <div className={`bg-primary ${styles.flexStart}`}>
+      <div className={`${styles.boxWidth}`}>
+        <Hero />
+      </div>
+    </div>
 
+    
     </div>
 );
 export default App;
