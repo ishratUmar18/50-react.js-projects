@@ -16,3 +16,20 @@ export const navLinks = [
     title: "Contact",
   },
 ];
+export const stats = [
+  {
+    id: "stats-1",
+    title: "Happy Clients",
+    value: "50+",
+  },
+  {
+    id: "stats-2",
+    title: "Built projects",
+    value: "30+",
+  },
+  {
+    id: "stats-3",
+    title: "Transaction",
+    value: "$230+",
+  },
+];
