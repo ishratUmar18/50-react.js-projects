@@ -20,7 +20,7 @@ export const stats = [
   {
     id: "stats-1",
     title: "Happy Clients",
-    value: "50+",
+    value: "100+",
   },
   {
     id: "stats-2",
