@@ -1,8 +1,10 @@
-import { project_01 } from '../assets';
+import { project_01, apple, google } from '../assets';
 import styles, { layout } from '../style';
 // import Button from './Button';
 
 const Projects = () => (
+  <>
+  // Project_01
     <section className={layout.section}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>Some of my projects</h2>
@@ -16,6 +18,55 @@ const Projects = () => (
       </div>
      
     </section>
+
+// Project_02
+<section id="product" className={ layout.sectionReverse }>
+      <div className={layout.sectionImgReverse}>
+        <img src={project_01} alt="about" className="w-[100%] relative z-[5]" />
+        <div className="absolute z-[3] -left-1/2 top-0 w-[50%] rounded-full white__gradient" />
+        <div className="absolute z-[0] -left-1/2 bottom-0 w-[50%] rounded-full pink__gradient" />
+      </div>
+      <div className={layout.sectionInfo}>
+        <h4 className={styles.heading4}> Passionate Developer</h4>
+        <p className={ `${styles.paragraph} max-w-[470px] mt-5`}> Cras ultricies ligula sed magna dictum porta. Pellentesque in ipsum id orci porta dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
+        <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
+        <img src={apple} alt="apple_store" className="w-[128px] h-[42px] object-contain mr-5 cursor-pointer" />
+          <img src={google} alt="google_play" className="w-[128px] h-[42px] object-contain cursor-pointer" />
+        </div>
+      </div>
+    </section>
+
+    // Project_03
+    <section className={layout.section}>
+      <div className={layout.sectionInfo}>
+        <h4 className={styles.heading4}> Landing Page</h4>
+        <p className={ `${styles.paragraph} max-w-[470px] mt-5`}>Cras ultricies ligula sed magna dictum porta. Pellentesque in ipsum id orci porta dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
+        {/* <Button styles="mt-10" />  */}
+      </div>
+      <div className={layout.sectionImg}>
+        <img src={project_01} alt="card" className="w-[100%] h-[100%]" />
+
+      </div>
+     
+    </section>
+
+    // Project_04
+    <section id="product" className={ layout.sectionReverse }>
+      <div className={layout.sectionImgReverse}>
+        <img src={project_01} alt="about" className="w-[100%] relative z-[5]" />
+        <div className="absolute z-[3] -left-1/2 top-0 w-[50%] rounded-full white__gradient" />
+        <div className="absolute z-[0] -left-1/2 bottom-0 w-[50%] rounded-full pink__gradient" />
+      </div>
+      <div className={layout.sectionInfo}>
+        <h4 className={styles.heading4}> Passionate Developer</h4>
+        <p className={ `${styles.paragraph} max-w-[470px] mt-5`}> Cras ultricies ligula sed magna dictum porta. Pellentesque in ipsum id orci porta dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
+        <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
+        <img src={apple} alt="apple_store" className="w-[128px] h-[42px] object-contain mr-5 cursor-pointer" />
+          <img src={google} alt="google_play" className="w-[128px] h-[42px] object-contain cursor-pointer" />
+        </div>
+      </div>
+    </section>
+    </>
   )
 
 export default Projects
