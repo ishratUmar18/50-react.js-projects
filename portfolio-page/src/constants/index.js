@@ -39,23 +39,23 @@ export const footerLinks = [
     links: [
       {
         name: "Content",
-        link: "#",
+        link: "https://ishratumar.medium.com/",
       },
       {
         name: "How it Works",
-        link: "#",
+        link: "https://ishratumar.medium.com/",
       },
       {
         name: "Create",
-        link: "#",
+        link: "https://ishratumar.medium.com/",
       },
       {
         name: "Explore",
-        link: "#",
+        link: "https://ishratumar.medium.com/",
       },
       {
         name: "Terms & Services",
-        link: "#",
+        link: "https://ishratumar.medium.com/",
       },
     ],
   },
@@ -64,23 +64,23 @@ export const footerLinks = [
     links: [
       {
         name: "Help Center",
-        link: "#",
+        link: "https://ishratumar.medium.com/",
       },
       {
         name: "Partners",
-        link: "#",
+        link: "https://ishratumar.medium.com/",
       },
       {
         name: "Suggestions",
-        link: "#",
+        link: "https://twitter.com/ishratUmar18",
       },
       {
         name: "Blog",
-        link: "#",
+        link: "https://ishratumar.medium.com/",
       },
       {
         name: "Newsletters",
-        link: "#",
+        link: "https://ishratumar.medium.com/",
       },
     ],
   },
@@ -89,11 +89,11 @@ export const footerLinks = [
     links: [
       {
         name: "Our Partner",
-        link: "#",
+        link: "https://ishratumar.medium.com/",
       },
       {
         name: "Become a Partner",
-        link: "#",
+        link: "https://ishratumar.medium.com/",
       },
     ],
   },
