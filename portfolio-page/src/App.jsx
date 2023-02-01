@@ -1,5 +1,5 @@
 import styles from "./style";
-import { Navbar, Hero, Stats, About, Projects, CTA, Footer}  from "./components";
+import { Navbar, Hero, Stats, About, Projects, CTA, Footer }  from "./components";
 
 
 const App = () => (
