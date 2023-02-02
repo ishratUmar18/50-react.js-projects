@@ -5,7 +5,7 @@ const GitHubProjects = () => {
 
   useEffect(() => {
     const fetchRepos = async () => {
-      const res = await fetch('https://api.github.com/users/yourhandle/repos');
+      const res = await fetch('https://api.github.com/users/ishratUmar18/repos');
       const data = await res.json();
       setRepos(data);
     };
