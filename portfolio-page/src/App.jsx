@@ -1,5 +1,5 @@
 import styles from "./style";
-import { Navbar, Hero, Stats, About, Projects, Services, CTA, Footer }  from "./components";
+import { Navbar, Hero, Stats, About, Projects, Testimonials, CTA, Footer }  from "./components";
 
 
 const App = () => (
@@ -19,9 +19,9 @@ const App = () => (
         <Stats />
         <About /> 
         <Projects />
-        {/*
-        <Testimonials />*/}
-        <Services /> 
+        <Testimonials />
+
+        {/* <Services />  */}
         <CTA /> 
         <Footer />  
       </div>
