@@ -42,7 +42,7 @@ export const features = [
   },
 ];
 
-export const services = [
+export const feedback = [
   {
     id: "feedback-1",
     content:
