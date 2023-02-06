@@ -1,46 +1,59 @@
-import { project_01, apple, google } from '../assets';
 import styles, { layout } from '../style';
 import Button from './Button';
 
-const Projects = () => (
-  <>
-  <section className={layout.section}>
-    <h2 className={`${styles.heading2} mb-500`}>Some of my projects</h2>
-        <p className={styles.paragraph}>Cras ultricies ligula sed magna dictum porta. Pellentesque in ipsum id orci porta dapibusCras ultricies ligula sed magna dictum porta. Pellentesque in ipsum id orci porta dapibus</p>
-        </section>
-  // Project_01 and Project_02
-    <section className={layout.section}>
-      <div className={layout.sectionInfo}>
-        <img src={project_01} alt="card" className="w-[80%] h-[80%]" />
-        <h4 className={styles.heading4}> Landing Page</h4>
-        <p className={ `${styles.paragraph} max-w-[470px] mt-5`}>Cras ultricies ligula sed magna dictum porta. Pellentesque in ipsum id orci porta dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
-        <Button styles="mt-10" /> 
-      </div>
-      <div className={layout.sectionInfo}>
-        <img src={project_01} alt="card" className="w-[80%] h-[80%]" />
-        <h4 className={styles.heading4}> Landing Page</h4>
-        <p className={ `${styles.paragraph} max-w-[470px] mt-5`}>Cras ultricies ligula sed magna dictum porta. Pellentesque in ipsum id orci porta dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
-        <Button styles="mt-10" /> 
-      </div>
-     
-    </section>
-    // Project_03 and Project_04
-    <section className={layout.section}>
-      <div className={layout.sectionInfo}>
-        <img src={project_01} alt="card" className="w-[100%] h-[100%]" />
-        <h4 className={styles.heading4}> Landing Page</h4>
-        <p className={ `${styles.paragraph} max-w-[470px] mt-5`}>Cras ultricies ligula sed magna dictum porta. Pellentesque in ipsum id orci porta dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
-        <Button styles="mt-10" /> 
-      </div>
-      <div className={layout.sectionInfo}>
-              <img src={project_01} alt="card" className="w-[100%] h-[100%]" />
-        <h4 className={styles.heading4}> Landing Page</h4>
-        <p className={ `${styles.paragraph} max-w-[470px] mt-5`}>Cras ultricies ligula sed magna dictum porta. Pellentesque in ipsum id orci porta dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
-        <Button styles="mt-10" /> 
-      </div>
-     
-    </section>
-    </>
-  )
+const Projects = ({ projects }) => {
+  if (!Array.isArray(projects) || !projects.length) return null;
 
-export default Projects
+  const projectsFirstRow = projects.slice(0, 2);
+  const projectsSecondRow = projects.slice(2, 4);
+
+  return (
+    <>
+      <section className={layout.section}>
+        <h2 className={`${styles.heading2} mb-500`}>Some of my projects</h2>
+        <p className={styles.paragraph}>
+          Cras ultricies ligula sed magna dictum porta. Pellentesque in
+          ipsum id orci porta dapibusCras ultricies ligula sed magna dictum
+          porta. Pellentesque in ipsum id orci porta dapibus
+        </p>
+      </section>
+
+      <section className={layout.section}>
+        {projectsFirstRow.map((project, index) => (
+          <div key={index} className={layout.sectionInfo}>
+            <img
+              src={project.image}
+              alt="card"
+              className="w-[100%] h-[100%]"
+            />
+            <h4 className={styles.heading4}>{project.heading}</h4>
+            <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+              {project.description}
+            </p>
+            <Button styles="mt-10" />
+          </div>
+        ))}
+      </section>
+
+      <section className={layout.section}>
+        {projectsSecondRow.map((project, index) => (
+          <div key={index} className={layout.sectionInfo}>
+            <img
+              src={project.image}
+              alt="card"
+              className="w-[100%] h-[100%]"
+            />
+            <h4 className={styles.heading4}>{project.heading}</h4>
+            <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+              {project.description}
+            </p>
+            <Button styles="mt-10" />
+          </div>
+        ))}
+      </section>
+    </>
+  );
+};
+
+export default Projects;
+

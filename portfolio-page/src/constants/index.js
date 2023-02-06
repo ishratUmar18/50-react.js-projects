@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, project_01 } from "../assets";
 
 export const navLinks = [
   {
@@ -189,4 +189,26 @@ export const clients = [
     id: "client-4",
     logo: dropbox,
   },
+];
+export const projects = [
+  {
+    image: project_01,
+    heading: "Landing Page",
+    description: "Cras ultricies ligula sed magna dictum porta. Pellentesque in ipsum id orci porta dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae."
+  },
+  {
+    image: project_01,
+    heading: "Landing Page",
+    description: "Cras ultricies ligula sed magna dictum porta. Pellentesque in ipsum id orci porta dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae."
+  },
+  {
+    image: project_01,
+    heading: "Landing Page",
+    description: "Cras ultricies ligula sed magna dictum porta. Pellentesque in ipsum id orci porta dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae."
+  },
+  {
+    image: project_01,
+    heading: "Landing Page",
+    description: "Cras ultricies ligula sed magna dictum porta. Pellentesque in ipsum id orci porta dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae."
+  }
 ];
