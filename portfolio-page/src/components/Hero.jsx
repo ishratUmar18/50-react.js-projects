@@ -10,7 +10,7 @@ const Hero = () => (
         <span className="text-white">Welcome</span> to my {" "}
         <span className="text-white">Portfolio</span> Website!
         </p>
-      </div>
+      </div>                                                        
 
       <div className="flex flex-row justify-between items-center w-full">
         <h1 className="fle-1 font-poppins font-semi-bold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]">
