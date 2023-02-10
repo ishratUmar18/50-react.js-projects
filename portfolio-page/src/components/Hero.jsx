@@ -25,7 +25,7 @@ const Hero = () => (
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quas maxime ducimus facere, eum autem aliquid eos nulla excepturi est asperiores architecto, sit doloribus magni </p>
     </div>
     <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
-      <img src={hero} alt="billing" className="w-[100%] h-[100%] relative z-[5]"/>
+      <img src={hero} alt="billing" className="w-[100%] h-[100%] relative z-[5] "/>
 
       <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
       <div className="absolute z-[1] w-[80%] h-[80%%] rounded-full bottom-40 white__gradient" />

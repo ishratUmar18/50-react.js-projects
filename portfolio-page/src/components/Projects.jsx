@@ -21,11 +21,11 @@ const Projects = ({ projects }) => {
 
       <section className={layout.section}>
         {projectsFirstRow.map((project, index) => (
-          <div key={index} className={`${layout.sectionInfo} animate__backInLeft animate__delay-2s`}>
+          <div key={index} className={`${layout.sectionInfo}`}>
             <img
               src={project.image}
               alt="card"
-              className="w-[100%] h-[100%] max-w-[500px]"
+              className="w-[100%] h-[100%] max-w-[500px] cursor-pointer hover:grow"
             />
             <h4 className={styles.heading4}>{project.heading}</h4>
             <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
@@ -38,11 +38,11 @@ const Projects = ({ projects }) => {
 
       <section className={layout.section}>
         {projectsSecondRow.map((project, index) => (
-          <div key={index} className={`${layout.sectionInfo} animated fadeInRight`}>
+          <div key={index} className={`${layout.sectionInfo}`}>
             <img
               src={project.image}
               alt="card"
-              className="w-[100%] h-[100%] max-w-[500px]"
+              className="w-[100%] h-[100%] max-w-[500px] cursor-pointer hover:grow"
             />
             <h4 className={styles.heading4}>{project.heading}</h4>
             <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
