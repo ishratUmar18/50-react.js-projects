@@ -4,9 +4,9 @@ Welcome to my portfolio page, built using the innovative Vite build tool. Vite i
 # Features
 - Fast and efficient build process
 - Simple and clean code structure
-- Built using the latest web technologies such as React and Tailwind CSS
+- Built using the latest web technologies React and Tailwind CSS
 - User-friendly design for an enjoyable user experience
-- Dynamic project sections that allow you to showcase your work in an interactive way
+- Project section that allows you to showcase your work in an interactive way
 - Responsive design for seamless viewing on all devices
 # Getting Started
 To get started with this portfolio page, you will need to have Node.js installed on your computer. Once you have Node.js, follow these steps:
@@ -36,6 +36,3 @@ Once you have made all the necessary changes, you can deploy the portfolio page 
 <pre> npm run build </pre>
 
 The production build will be generated in the dist folder, which you can then upload to your hosting service.
-
-# Conclusion
-This portfolio page is built using the latest web technologies and is designed to be fast, efficient, and user-friendly. Whether you are a beginner or an experienced developer, this portfolio page is a great starting point for showcasing your projects and personal information. I hope you enjoy using this portfolio page and that it helps you showcase your work in the best possible way.
